@@ -49,5 +49,5 @@ app.get("/list-folder-content", (req, res)=>{
     })
 });
 
-let  PORT  = 3333;
+let  PORT  = 3000;
 app.listen(PORT, ()=>console.log(`Node file system API is running on port - ${PORT}`));
